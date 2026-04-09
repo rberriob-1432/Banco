@@ -1,7 +1,8 @@
 package com.mycompany.banco.Dominio;
+import com.mycompany.banco.aplicacion.AgregableCuenta;
 import java.util.List;
 import java.util.ArrayList;
-public class Cliente {
+public abstract class Cliente implements AgregableCuenta {
     private String nombre;
     private long id;
 private List<Cuenta> cuentas = new ArrayList<>(); 
@@ -19,6 +20,7 @@ private List<Cuenta> cuentas = new ArrayList<>();
     public List<Cuenta> getCuentas(){
         return cuentas;
     }
+    @Override
     public  void agregarCuenta (Cuenta cuenta){
         cuentas.add(cuenta);
     }

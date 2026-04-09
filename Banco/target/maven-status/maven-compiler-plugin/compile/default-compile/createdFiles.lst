@@ -1,5 +1,13 @@
+com\mycompany\banco\Aplicacion\BuscableCliente.class
+com\mycompany\banco\Aplicacion\ClienteService.class
+com\mycompany\banco\Dominio\Cuenta.class
+com\mycompany\banco\Aplicacion\OperacionesCuentaService.class
 com\mycompany\banco\Dominio\Main.class
 com\mycompany\banco\Dominio\Cliente.class
-Banco.class
-com\mycompany\banco\Aplicacion\CuentaService.class
-com\mycompany\banco\Dominio\Cuenta.class
+com\mycompany\banco\Aplicacion\CuentaRepository.class
+com\mycompany\banco\MainBanco.class
+com\mycompany\banco\Aplicacion\AgregableCuenta.class
+com\mycompany\banco\Aplicacion\Depositar.class
+com\mycompany\banco\Aplicacion\ClienteCuentaService.class
+com\mycompany\banco\CuentaAhorro.class
+com\mycompany\banco\Aplicacion\ClienteRepository.class
